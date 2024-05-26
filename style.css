@@ -211,13 +211,13 @@ ul.todo#completed:before {
 }
 
 ul.todo#todo:empty:after {
-  content: 'You have nothing to-do!';
+  content: '띵가띵가하고 계시군요!';
   margin: 15px 0 0 0;
   color: #aaa; /* 안내문구 색상 */
 }
 
 ul.todo#completed:empty:after {
-  content: 'You have yet to complete any tasks.';
+  content: '할일이 없거나 할일을 못했거나';
   color: #aaa; /* 안내문구 색상 */
 }
 
