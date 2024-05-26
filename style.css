@@ -143,9 +143,9 @@ ul.todo li .buttons button {
 
 ul.todo li .buttons button:last-of-type:before {
   content: '';
-  width: 1px;
+  width: 2px; /* 구분선 두께 증가 */
   height: 30px;
-  background: #333; /* 다크 구분선 색상 */
+  background: #777; /* 구분선 색상 밝게 */
   position: absolute;
   top: 10px;
   left: 0;
@@ -203,8 +203,8 @@ ul.todo#completed {
 ul.todo#completed:before {
   content: '';
   width: 150px;
-  height: 1px;
-  background: #444; /* 구분선 색상 */
+  height: 2px; /* 구분선 두께 증가 */
+  background: #aaa; /* 구분선 색상 밝게 */
   position: absolute;
   top: 30px;
   left: 50%;
